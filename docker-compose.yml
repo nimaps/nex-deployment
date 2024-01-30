@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  back:
+    image: registry.nexproject.ir/nex-server/nex-server:latest
+
+  front:
+    image: registry.nexproject.ir/nex-react/nex-react:latest
