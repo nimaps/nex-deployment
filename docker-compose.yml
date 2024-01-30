@@ -6,3 +6,5 @@ services:
 
   front:
     image: registry.nexproject.ir/nex-react/nex-react:latest
+    ports:
+      - "8080:80"
